@@ -3,7 +3,7 @@ wordpress:
     links:
      - mariadb:mysql
     environment:
-     - WORDPRESS_DB_PASSWORD=password
+     - WORDPRESS_DB_PASSWORD=welcome@123
      - WORDPRESS_DB_USER=root
     ports:
      - "80:80"
